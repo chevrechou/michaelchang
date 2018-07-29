@@ -1,0 +1,200 @@
+.greet-container{
+  /* background-color: rgba(90, 85, 147, 0.95); */
+  height: auto;
+
+  width: auto !important;
+  background-color: transparent;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-top: 1.6em;
+  /* padding-bottom: 1.5em; */
+  height: auto;
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(156, 146, 205);
+  /* background-color: rgb(93, 187, 242); */
+  border-radius: 25px;
+
+}
+.greetings{
+  /* background-color: rgba(0, 0, 0, 0.95); */
+  height:10em;
+  text-align: right;
+
+  padding-right: 4%;
+
+
+
+}
+.greetings h2{
+  font-size: 65px;
+
+}
+.space{
+  height:10em;
+  z-index: -1;
+}
+
+.welcome-txt{
+  /* background-color: rgba(247, 0, 0, 0.95); */
+  width: auto;
+  height: auto;
+
+  text-align: center;
+  /* padding-left: 4%; */
+  padding-top: 3.5%;
+  margin-top: 3em;
+}
+.welcome-txt h1{
+  font-weight: bold;
+  font-size: 40px;
+  font-stretch: semi-expanded;
+}
+
+.slogan-txt{
+  /* background-color: rgba(218, 212, 208, 0.86); */
+  color: white;
+  position: absolute;
+  height: 8em;
+}
+.slogan h2{
+  font-size: 30px;
+}
+.slogan h3{
+  font-size: 50px;
+  color: rgb(38, 134, 128);
+}
+
+.enter{
+
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+
+}
+
+.button-enter{
+  background-color: rgb(50, 17, 56, 0.4) !important;
+  text-align:justify;
+  height: auto;
+  width: auto;
+
+  padding: 0.5% 0.5%;
+  margin-top: 4em;
+  margin-bottom: 6.4em;
+  margin-left: 4%;
+  float:left;
+  z-index: 1;
+
+
+}
+
+/* height for iphoneX */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+  .greetings{
+    /* background-color: rgba(0, 0, 0, 0.95); */
+    height:10em;
+    text-align: center;
+
+    padding-right: 4%;
+
+
+
+  }
+  .greetings h2{
+    font-size: 45px;
+
+  }
+  .button-enter{
+    background-color: rgb(50, 17, 56, 0.4) !important;
+    text-align:justify;
+    height: auto;
+    width: auto;
+
+    padding: 0.5% 0.5%;
+    margin-top: 18.2em;
+    margin-bottom: 4.4em;
+    margin-left: 4%;
+    float:left;
+    z-index: 1;
+
+
+  }
+
+}
+/* height for iphone 6,7,8 */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+
+
+  .greetings{
+    /* background-color: rgba(0, 0, 0, 0.95); */
+    height:10em;
+    text-align: center;
+
+
+
+
+
+  }
+  .greetings h2{
+    font-size: 45px;
+
+  }
+  .button-enter{
+    background-color: rgb(50, 17, 56, 0.4) !important;
+    text-align:justify;
+    height: auto;
+    width: auto;
+
+    padding: 0.5% 0.5%;
+    margin-top: 14.2em;
+    margin-bottom: 4.4em;
+    margin-left: 4%;
+    float:left;
+    z-index: 1;
+
+
+  }
+}
+/* height for iphone 6,7,8 +    */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+
+
+  .greetings{
+    /* background-color: rgba(0, 0, 0, 0.95); */
+    height:10em;
+    text-align: center;
+
+
+
+
+
+  }
+  .greetings h2{
+    font-size: 45px;
+
+  }
+  .button-enter{
+    background-color: rgb(50, 17, 56, 0.4) !important;
+    text-align:justify;
+    height: auto;
+    width: auto;
+
+    padding: 0.5% 0.5%;
+    margin-top: 18.2em;
+    margin-bottom: 4.4em;
+    margin-left: 4%;
+    float:left;
+    z-index: 1;
+
+
+  }
+}

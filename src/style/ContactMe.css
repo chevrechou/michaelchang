@@ -1,0 +1,62 @@
+.contact-container{
+
+  margin-bottom: 3em;
+  padding-top: 3.3em;
+  padding-bottom: 1.5em;
+  height: auto;
+
+
+  /* margin-left: -15px !important;
+  margin-right: -15px !important; */
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(156, 146, 205);
+  /* background-color: rgb(93, 187, 242); */
+  border-radius: 25px;
+
+  background-color: white;
+}
+.contact-div{
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+  /* border: 2px black solid; */
+
+}
+.through-coffee{
+  padding-top: 3%;
+  padding-bottom: 4%;
+  float:left;
+  width: 50%;
+  border-right: 2.5px solid black;
+  height: auto;
+}
+.coffee{
+  font-size:290%;
+  margin: 2.5% 4%;
+  width: auto;
+}
+.through-socio{
+  padding-top: 3%;
+  padding-bottom: 4%;
+  float:right;
+  width: 50%;
+  height: auto;
+}
+.socio-icons i{
+  width: auto;
+  font-size: 450%;
+  margin: 2.5% 4%;
+
+}
+#hyperlink{
+  text-decoration: none;
+  color: inherit;
+
+}
+#hyperlink :hover{
+  color:blue;
+}

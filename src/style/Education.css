@@ -1,0 +1,129 @@
+.education-container{
+
+  margin-bottom: 3em;
+  padding-top: 5.3em;
+  margin-top: 2em;
+  /* padding-bottom: 1em; */
+  height: auto;
+
+
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(156, 146, 205);
+  /* background-color: rgb(93, 187, 242); */
+  border-radius: 25px;
+
+  background-color: white;
+}
+.education-container h1{
+  font-size: 25px;
+}
+.education-container h5{
+  font-size: 15px;
+}
+.education-container h2{
+  font-size: 20px;
+}
+.title-3{
+  margin-left: 4%;
+  font-size:calc(12px + 1.2vw);
+
+
+
+}
+.one {
+  padding-bottom: 2%;
+  padding-top: .3%;
+  background-color: transparent;
+  height: auto;
+
+}
+
+.usc-holder{
+
+  margin-left: 4%;
+  margin-right: 4%;
+  float:left;
+  height:150px;
+  max-width:150px;
+
+
+}
+.usc-thumb{
+   width: 150px;
+   height: 150px;
+   display: inline-block;
+   border-radius: 50%;
+   border-style: solid;
+   border-color: rgb(53, 134, 164);
+   border-width: 2px;
+   overflow: hidden;
+   margin-bottom: 2em;
+   background-image: url('../images/usc.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.school-name{
+  margin-top: 2%;
+  float: left;
+  font-size: calc(8px + 1vw);
+  text-align: left;
+  padding-right: 14%;
+  width: auto;
+  position: relative;
+}
+.gpa{
+  float:right;
+  height:auto;
+
+  margin-top: 2%;
+  padding-right: 4%;
+}
+.gpa h4{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.education-description{
+  text-align: left;
+
+  width: 70%;
+  float: left;
+
+}
+.two{
+  margin-top: 0;
+  padding-bottom: 2%;
+  padding-top: 0.3%;
+  background-color: transparent;
+  height: auto;
+}
+.mari-holder{
+
+  margin-left: 4%;
+  margin-right: 4%;
+  float:left;
+  height:150px;
+  max-width:150px;
+
+
+}
+.mari-thumb{
+   width: 150px;
+   height: 150px;
+   display: inline-block;
+   border-radius: 50%;
+   border-style: solid;
+   border-color: rgb(53, 134, 164);
+   border-width: 2px;
+   overflow: hidden;
+   margin-bottom: 2em;
+   background-image: url('../images/mari.jpg');
+   background-size:86%;
+   background-repeat: no-repeat;
+   background-position: center;
+}

@@ -1,0 +1,159 @@
+.experience-container{
+
+  margin-bottom: 3em;
+  padding-top: 5.3em;
+  padding-bottom: 1.5em;
+  height: auto;
+
+
+
+  /* margin-left: -15px !important;
+  margin-right: -15px !important; */
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(156, 146, 205);
+  /* background-color: rgb(93, 187, 242); */
+  border-radius: 25px;
+
+  background-color: white;
+}
+.title-2{
+  float:right;
+  margin-right: 4%;
+  text-align: right;
+  font-size:calc(12px + 1.2vw);
+}
+
+.description-2{
+  float:right;
+  margin-right: 4%;
+
+  width: 100%;
+
+
+  /* text-align: right; */
+
+  height: auto;
+
+}
+
+.player-holder1{
+  margin-top: 4%;
+   height:150px;
+   max-width:150px;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+   /* background:blue; */
+   /* text-align: center; */
+}
+.player-thumb1{
+   width: 150px;
+   height: 150px;
+   display: inline-block;
+   border-radius: 50%;
+   border-style: solid;
+   border-color: rgb(53, 134, 164);
+   border-width: 2px;
+   overflow: hidden;
+   margin-bottom: 2em;
+   background-image: url('../images/logo_ibm.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.player-holder2{
+   height:150px;
+   max-width:150px;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+   /* background:blue; */
+   /* text-align: center; */
+}
+.player-thumb2{
+    margin-top: 4%;
+   width: 150px;
+   height: 150px;
+   display: inline-block;
+   border-radius: 50%;
+   border-style: solid;
+   border-color: rgb(53, 134, 164);
+   border-width: 2px;
+   overflow: hidden;
+   margin-bottom: 2em;
+   background-image: url('../images/CIHR.jpg');
+   background-size:93%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.player-holder3{
+   height:150px;
+   max-width:150px;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+   /* background:blue; */
+   /* text-align: center; */
+}
+.player-thumb3{
+    margin-top: 4%;
+   width: 150px;
+   height: 150px;
+   display: inline-block;
+   border-radius: 50%;
+   border-style: solid;
+   border-color: rgb(53, 134, 164);
+   border-width: 2px;
+   overflow: hidden;
+   margin-bottom: 2em;
+   background-image: url('../images/shad.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.description-2 h4{
+  padding-left: 4%;
+  text-align: justify;
+  font-size: 16px;
+
+}
+
+.work-description{
+  padding-left: 0%;
+}
+.skills{
+
+  margin-top: 5%;
+  width: auto;
+  flex:auto;
+  /* background-color: red; */
+
+
+}
+
+.but{
+  display: inline-flex;
+  background-color: rgb(17, 186, 196);
+  color:black;
+  width: auto;
+
+  border-radius: 10px;
+
+  font-size: 12.5px;
+  padding: 3px 3px;
+
+  margin:4px 4px;
+}
+.card-container{
+  padding-left: 8%;
+  z-index: 0;
+
+}
+.card{
+  background-color: red;
+
+}

@@ -1,0 +1,63 @@
+.nav{
+  height:auto;
+  overflow: hidden;
+  top: -5;
+
+  z-index: 1;
+  width: 98%;
+  position: -webkit-sticky;
+  position: fixed;
+
+
+}
+
+
+/* height for iphoneX */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+    .about{
+      /* height: 40em;
+      background-color: red; */
+    }
+    .experience{
+      /* height:85em;
+      background-color: blue; */
+
+    }
+
+}
+/* height for iphone 6,7,8 */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+
+
+  .about{
+    /* height: 40em;
+    /* background-color: red; */
+    font-size: 8px;
+  }
+  .experience{
+    /* height:85em;
+    background-color: blue; */
+        font-size: 8px;
+
+  }
+}
+/* height for iphone 6,7,8 +    */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+
+  .about{
+    /* height: 40em;
+    background-color: red; */
+  }
+  .experience{
+    /* height:75em;
+    background-color: blue; */
+
+  }
+}

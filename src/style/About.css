@@ -1,0 +1,128 @@
+.about-container{
+
+  margin-top: 6em;
+  margin-bottom: 3em;
+  padding-top: 3.3em;
+  padding-bottom: 1.5em;
+  height: auto;
+  /* width: 1500px !important; */
+
+  /* margin-left: 4px !important;
+  margin-right:4px !important;  */
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(156, 146, 205);
+  /* background-color: rgb(93, 187, 242); */
+  border-radius: 25px;
+
+  background-color: white;
+
+}
+
+.intro{
+  float:right;
+  /* background-color: blue; */
+  width: 100%;
+  height:auto;
+  text-align: left;
+}
+.title-1{
+  /* background-color: pink; */
+
+  margin-left: 4%;
+  width: 15%;
+  font-size:1vh;
+}
+.title-1 h1{
+  font-family: 'Rubik', sans-serif, Bold;
+  font-style: Bold;
+}
+
+.description-1{
+  height: 70%;
+  margin-left: 4%;
+  width: 60%;
+  float:left;
+  text-align: justify;
+  /* background-color: grey; */
+}
+.description-1 h3{
+
+  font-size:3vh;
+}
+.icons{
+  padding-top: 0.6em;
+  display: flex;
+}
+.icons ul i{
+
+  height:35px;
+  width: 35px;
+  padding: 0.3em 0.3em;
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(53, 134, 164);
+  border-width: 2px;
+  border-radius: 15px;
+}
+/* .globe{
+  margin-right: %;
+
+  display: inline-block;
+  float: right;
+  width: 350px;
+  height: 350px;
+} */
+.picture{
+
+  margin-right: 8%;
+  display: inline-block;
+  /* position: relative; */
+  float: right;
+  border-style: solid;
+  border-color: rgb(53, 134, 164);
+  border-width: 4px;
+
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+.picture img{
+  width: 100%;
+
+
+}
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  .description-1{
+    margin-top: 4%;
+    margin-left: 4%;
+    width: 90%;
+    float:left;
+    /* background-color: grey; */
+
+  }
+  .description-1 h3{
+      font-size:calc(7px + 1em);
+  }
+  .picture{
+
+
+    margin-right: 25%;
+    display: inline-block;
+    /* position: relative; */
+
+
+    max-width: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+
+  }
+}

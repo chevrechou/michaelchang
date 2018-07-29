@@ -1,0 +1,101 @@
+.other-container{
+
+  margin-bottom: 3em;
+  padding-top: 3.3em;
+  padding-bottom: 2em;
+  height: auto;
+
+
+
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(156, 146, 205);
+  /* background-color: rgb(93, 187, 242); */
+  border-radius: 25px;
+
+  background-color: white;
+}
+.title-4{
+  margin-left: 4%;
+  font-size:calc(12px + 1.2vw);
+}
+.intro{
+  float:left;
+  margin-left: 4%;
+}
+.languages{
+  height:auto;
+  width: 35% !important;
+  float:left;
+
+  background-color: transparent;
+}
+.each-language{
+  float:left;
+  text-align: left;
+    margin-left: 0 !important;
+
+
+}
+.each-language ul{
+  text-align: left;
+  margin-left: 0 !important;
+  width: auto;
+  float:left;
+
+}
+.progress{
+  display: inline;
+  width: 60%;
+  height: 20% !important;
+  margin-left: 3%;
+  float:left;
+
+}
+.skillset{
+  height:auto;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  width: 30% !important;
+  float:left;
+  text-align: left;
+
+
+  background-color: transparent;
+}
+.each-skill{
+
+  display: inline;
+}
+.skill-but{
+  display: inline-flex;
+  background-color: rgb(17, 186, 196);
+  color:black;
+  width: auto;
+
+
+  border-radius: 10px;
+
+  font-size: 20px;
+  padding: 3px 3px;
+
+  margin:4px 4px;
+}
+.interest{
+  height:auto;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  width: 30% !important;
+  float:left;
+    padding-right: 4% !important;
+  background-color: transparent;
+    display: inline-flex;
+
+}
+.each-interest{
+
+  /* text-align: left; */
+}
