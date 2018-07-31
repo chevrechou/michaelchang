@@ -41,12 +41,16 @@ export class Experience extends Component{
               </div>
 
               <ShadowScrollbars style={{height: 270}}>
-                <h4> During my internship at the IBM Toronto Software Lab, I worked on developing
-                  a new website for the <a href="https://www-01.ibm.com/ibm/cas/canada/" target="_blank">  Advanced Studies </a> team that
-                  would optimize the UX for our users. Additionally,
-                  another major part of my work was focused on creating an unique and eye-catching UI that would distinguish this new
-                  website from its predecessor.
+                <h4> During my internship at the IBM Toronto Software Lab, I designed, from the ground-up,
+                  a new IBM website called myCAS,
+                  using ReactJS, HTML and CSS. Using the IBM Design Thinking protocol, I also designed a
+                  more user-friendly and intuitive User-Interface (UI)
+                  for the IBM myCAS website, optimizing its User Experience (UX).  This unique and eye-catching UI that would distinguish this new
+                  website from its predecessor. 
                 </h4>
+                <br/>
+                <h5><a href="https://www-01.ibm.com/ibm/cas/canada/" target="_blank"> Learn More about IBM CAS </a> </h5>
+
               </ShadowScrollbars>
 
 
