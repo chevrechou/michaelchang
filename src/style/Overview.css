@@ -19,16 +19,21 @@
   background-color: white;
 }
 .title-4{
-  margin-left: 4%;
+  /* margin-left: 4%; */
   font-size:calc(12px + 1.2vw);
 }
 .intro{
   float:left;
   margin-left: 4%;
+  /* margin-bottom: 1%; */
+}
+.intro h2{
+  margin-bottom: 5%;
 }
 .languages{
   height:auto;
-  width: 35% !important;
+  /* max-height: 200px; */
+  width: 32% !important;
   float:left;
 
   background-color: transparent;
@@ -36,7 +41,7 @@
 .each-language{
   float:left;
   text-align: left;
-    margin-left: 0 !important;
+  margin-left: 0 !important;
 
 
 }
@@ -57,10 +62,13 @@
 }
 .skillset{
   height:auto;
+  /* max-height: 150px; */
   margin-top: 0 !important;
   padding-top: 0 !important;
-  width: 30% !important;
+  width: 32% !important;
   float:left;
+  border-right: black 2px solid;
+  border-left: black 2px solid;
   text-align: left;
 
 
@@ -86,16 +94,18 @@
 }
 .interest{
   height:auto;
+  /* max-height: 150px; */
   margin-top: 0 !important;
   padding-top: 0 !important;
-  width: 30% !important;
+  width: 32% !important;
   float:left;
-    padding-right: 4% !important;
+  padding-right: 4% !important;
   background-color: transparent;
-    display: inline-flex;
+
 
 }
-.each-interest{
-
-  /* text-align: left; */
+.each-interest ul{
+  display:inline;
+  padding: 0.3em 0.3em;
+  text-align: left;
 }

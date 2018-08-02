@@ -25,7 +25,17 @@ export class Education extends Component{
           </div>
           <div className='education-description'>
             <h5>
-               University of Southern California - Expected graduation in 2021
+              University of Southern California - Expected graduation in 2021
+               <br/> <br/>
+              USC is a world-class university that offers many excellent academic programs and provides extensive
+              resources for its students. I consider USC to be an innovation incubator: students of all disciplines
+              are inspired by their peers to step out of their comfort zones and explore new opportunities. Personally,
+              I found interest in many new activities. You can often find me in lifting weights in the gym or on the sport courts, either
+              playing basketball or tennis. Outside of athletics, entrepreneurship and innovation take most of my time. I like to
+              learn new technologies and create tech projects that can impact my campus.
+
+              Although I just finished my freshman year, I consider USC my home away from home.
+
             </h5>
 
           </div>

@@ -3,7 +3,7 @@
   margin-top: 6em;
   margin-bottom: 3em;
   padding-top: 3.3em;
-  padding-bottom: 1.5em;
+
   height: auto;
   /* width: 1500px !important; */
 
@@ -42,16 +42,19 @@
 }
 
 .description-1{
-  height: 70%;
+  height: 40%;
   margin-left: 4%;
-  width: 60%;
+  margin-top: 1.5%;
+  width: 65%;
   float:left;
   text-align: justify;
+
+
   /* background-color: grey; */
 }
 .description-1 h3{
-
   font-size:3vh;
+    line-height: 1.5;
 }
 .icons{
   padding-top: 0.6em;
@@ -76,26 +79,33 @@
   width: 350px;
   height: 350px;
 } */
-.picture{
 
-  margin-right: 8%;
-  display: inline-block;
-  /* position: relative; */
-  float: right;
-  border-style: solid;
-  border-color: rgb(53, 134, 164);
-  border-width: 4px;
+.picture-holder{
 
-  width: 220px;
-  height: 220px;
-  overflow: hidden;
-  border-radius: 50%;
+  height:220px;
+  max-width:220px;
+   overflow: hidden;
+   display: inline-block;
+   /* margin-bottom: 2em; */
+
+ margin-left: 4%;
 
 }
-.picture img{
-  width: 100%;
 
-
+.pic-thumb{
+  width: 220px;
+  height: 220px;
+  display: inline-block;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(53, 134, 164);
+  border-width: 2px;
+  overflow: hidden;
+  /* margin-bottom: 2em; */
+  background-image: url('../images/profile.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:top;
 }
 @media only screen
 and (min-device-width : 375px)
@@ -108,6 +118,7 @@ and (max-device-width : 667px) {
     /* background-color: grey; */
 
   }
+
   .description-1 h3{
       font-size:calc(7px + 1em);
   }

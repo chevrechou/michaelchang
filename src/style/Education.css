@@ -95,6 +95,9 @@
   float: left;
 
 }
+.education-description h5{
+    line-height: 1.5;
+}
 .two{
   margin-top: 0;
   padding-bottom: 2%;

@@ -57,13 +57,16 @@ export class Overview extends Component{
         </Container>
         <Container className='interest'>
           <h2>
-            <div className='intro'> Interest: </div>
+            <div className='intro'>
+              <h2> Interest: </h2>
+            </div>
               <div className='each-interest'>
-                <ul> Sports </ul>
-                <ul> Lifeguarding </ul>
+                <ul> Tennis </ul>
+                <ul> Basketball </ul>
                 <ul> Movies  </ul>
-                <ul> Chess </ul>
+                <ul> Photography </ul>
                 <ul> Music </ul>
+                <ul> Travelling </ul>
               </div>
           </h2>
         </Container>

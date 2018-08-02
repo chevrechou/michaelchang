@@ -46,7 +46,7 @@ export class Experience extends Component{
                   using ReactJS, HTML and CSS. Using the IBM Design Thinking protocol, I also designed a
                   more user-friendly and intuitive User-Interface (UI)
                   for the IBM myCAS website, optimizing its User Experience (UX).  This unique and eye-catching UI that would distinguish this new
-                  website from its predecessor. 
+                  website from its predecessor.
                 </h4>
                 <br/>
                 <h5><a href="https://www-01.ibm.com/ibm/cas/canada/" target="_blank"> Learn More about IBM CAS </a> </h5>
@@ -58,7 +58,7 @@ export class Experience extends Component{
               <div className="skills">
                 <Label bsClass="but"> ReactJS </Label> {' '}
                 <Label bsClass="but"> Front-end development</Label> {' '}
-                <Label bsClass="but"> Database</Label>{' '}
+                <Label bsClass="but"> Database Management</Label>{' '}
               </div>
             </div>
           </CardText>
@@ -101,16 +101,16 @@ export class Experience extends Component{
                   Foundation's prestigious genetics and molecular biology internship program. I was placed in Dr. Gustavo Turecki's
                   labarotary at the Douglas Institute of Mental Health in Montreal.
                   During the program, I extracted DNA and RNA from brain cells, sliced brain
-                  tissues and performed qPCR and Western Blots. Currently, I am one of the program
-                  ambassadors in Quebec.
+                  tissues and performed qPCR and Western blot analysis. Currently, I am the program
+                  ambassador in Quebec.
                 </h4>
               </ShadowScrollbars>
               <br/>
               <h5><a href="http://grfaw.ca/" target="_blank">Learn More </a> </h5>
                 <div className="skills">
-                    <Label bsClass="but"> People Management </Label>{' '}
-                    <Label bsClass="but"> Rapid Learning</Label>{' '}
-                    <Label bsClass="but"> Public Relations</Label>
+                    <Label bsClass="but"> Biomedical Research </Label>{' '}
+                    <Label bsClass="but"> Data Collection</Label>{' '}
+                    <Label bsClass="but"> Analytical Skills</Label>
                 </div>
               </div>
             </CardText>
