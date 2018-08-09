@@ -33,11 +33,11 @@ export class NavBar extends Component {
                 </li>
 
                 <li>
-                  <Link activeClass="active" to="education" spy={true} smooth={true}>Education</Link>
-                </li>
-                
-                <li>
                   <Link activeClass="active" to="overview" spy={true} smooth={true}>  Overview </Link>
+                </li>
+
+                <li>
+                  <Link activeClass="active" to="education" spy={true} smooth={true}>Education</Link>
                 </li>
 
                 <li>
