@@ -6,17 +6,17 @@
 
 
   padding-bottom: 0.7em;
-  margin-left: 5.5%;
-  margin-right:5.5%;
+  /* margin-left: 5.5%;
+  margin-right:5.5%; */
 
-  width: fill;
+  width: 85%;
   height: auto;
   top:0;
   border-radius: 10px;
   z-index: 1;
   position:fixed;
 
-  background-color: rgb(50, 195, 186, 0.83);
+  background-color: rgb(50, 195, 186, 0.9);
 
 
 }
@@ -46,13 +46,13 @@
 }
 .small-menu{
   text-align: center;
-  margin-left: 0%;
+  /*  margin-left: 0%; */
   height: auto;
 
 }
 .small-menu li {
   color: black;
-display: block;
+  display: block;
 
   width: 100%;
   /* background-color: red; */
@@ -61,7 +61,8 @@ display: block;
 }
 .small-menu ul li a{
   color:black;
-  padding-right: 10%;
+
+  /* padding-right: 10%; */
 
 
 }
@@ -72,9 +73,9 @@ and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 
   .menu{
-    margin-left: 0%;
+    /* margin-left: 0%; */
 
-    width: fill;
+  width: 100%;
   }
 }
 /* height for iphone 6,7,8 */
@@ -82,10 +83,10 @@ and (-webkit-device-pixel-ratio : 3) {
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
   .menu{
-    margin-left: 0%;
-    margin-right:0;
+    /* margin-left: 0%;
+    margin-right:0; */
 
-    width: fill;
+    width: 100%;
   }
 
 }
@@ -95,9 +96,9 @@ and (min-device-width : 414px)
 and (max-device-width : 736px) {
 
   .menu{
-    margin-left: 0%;
+    /* margin-left: 0%; */
 
-    width: fill;
+    width: 85%;
   }
 
 }

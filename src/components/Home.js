@@ -16,7 +16,7 @@ export class Home extends Component {
 
   };
     return (
-      <div>
+      <div id="container">
         <div className='nav'>
           <NavBar/>
         </div>

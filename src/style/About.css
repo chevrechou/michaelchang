@@ -54,7 +54,7 @@
 }
 .description-1 h3{
   font-size:3vh;
-    line-height: 1.5;
+  line-height: 1.5;
 }
 .icons{
   padding-top: 0.6em;
@@ -107,6 +107,17 @@
   background-repeat: no-repeat;
   background-position:top;
 }
+/* height for iphoneX */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+  .description-1 h3{
+    font-size:2.5vh;
+  }
+
+}
+/* height for iphone 6,7,8 */
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
@@ -115,12 +126,13 @@ and (max-device-width : 667px) {
     margin-left: 4%;
     width: 90%;
     float:left;
-    /* background-color: grey; */
+
+
 
   }
 
   .description-1 h3{
-      font-size:calc(7px + 1em);
+    font-size:2.5vh;
   }
   .picture{
 
@@ -135,5 +147,13 @@ and (max-device-width : 667px) {
     overflow: hidden;
     border-radius: 50%;
 
+  }
+}
+/* height for iphone 6,7,8 +    */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+  .description-1 h3{
+    font-size:2.5vh;
   }
 }
