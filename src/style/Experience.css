@@ -30,6 +30,7 @@
 .description-2{
   float:right;
   margin-right: 4%;
+  margin-left: 4%;
 
   width: 100%;
 
@@ -140,9 +141,7 @@
   background-color: rgb(17, 186, 196);
   color:black;
   width: auto;
-
   border-radius: 10px;
-
   font-size: 12.5px;
   padding: 3px 3px;
 
@@ -151,9 +150,11 @@
 .card-container{
   padding-left: 8%;
   z-index: 0;
+  width: auto;
 
 }
 .card{
   background-color: red;
+  /* width: 300px; */
 
 }

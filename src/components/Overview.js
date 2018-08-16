@@ -8,7 +8,7 @@ import { Progress } from 'reactstrap';
 export class Overview extends Component{
   render(){
     return(
-      <Container className='other-container'>
+      <Container className='container-fluid'>
         <div className='title-4'>
           <h1> Overview </h1>
         </div>

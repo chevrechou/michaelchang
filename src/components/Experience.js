@@ -26,7 +26,7 @@ export class Experience extends Component{
 
       <div className='description-2'>
       <CardDeck className='card-container'>
-      <Card>
+      <Card className='card'>
         <CardBody >
           <CardTitle>
             <h3> Software Development Intern with IBM Canada Advanced Studies (CAS) </h3>
