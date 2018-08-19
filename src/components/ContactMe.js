@@ -28,7 +28,7 @@ export class ContactMe extends Component{
             <div className='socio-icons'>
             <a href="https://www.facebook.com/michael.chang.5059?ref=bookmarks" target="blank" id='hyperlink'> <i class="fab fa-facebook"></i> </a>
             <a href="https://www.linkedin.com/in/michael-chang-usc" target="blank" id='hyperlink'>   <i class="fab fa-linkedin"></i> </ a>
-            <a  href="" target="_top" id='hyperlink'> <i class="fas fa-at"></i> </a>
+            <a  href="mailto:chan302@usc.edu" target="_top" id='hyperlink'> <i class="fas fa-at"></i> </a>
             </div>
           </div>
 
